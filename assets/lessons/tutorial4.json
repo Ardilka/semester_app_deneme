@@ -1,0 +1,34 @@
+{
+  "lessonTitle": "Cultural & Societal Shifts",
+  "lessonChunks": [
+    {
+      "type": "header",
+      "content": "Religion, Politics, and Society"
+    },
+    {
+      "type": "text",
+      "content": "While many Renaissance developments were artistic and scientific, societal structures also experienced upheaval. The Reformation, spurred by figures like Martin Luther, challenged the religious monopoly of the Catholic Church, leading to a century of conflict and reshaping Europe’s political map. Nobility and monarchs, who once dictated cultural trends, saw their authority redefined by middle-class patrons and humanist ideals."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Increasing influence of secular thought",
+        "Rise of wealthy merchant classes",
+        "Humanist education emphasizing classical languages and logic"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Cities like Florence, Venice, and Rome benefited from trade and banking, fueling a wealth that funded large-scale patronage of the arts. This economic dynamism was matched by new forms of diplomatic relations, with ambassadors and permanent missions between city-states and kingdoms—a practice that still exists in modern foreign policy."
+    },
+    {
+      "type": "chart",
+      "chartType": "pie",
+      "data": {
+        "labels": ["Nobility", "Merchants", "Church", "Artists"],
+        "values": [25, 30, 20, 25]
+      },
+      "description": "Renaissance Power Distribution"
+    }
+  ]
+}

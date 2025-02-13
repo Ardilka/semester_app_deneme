@@ -1,0 +1,42 @@
+{
+    "lessonTitle": "Key Figures of the Renaissance",
+    "lessonChunks": [
+      {
+        "type": "header",
+        "content": "Leonardo da Vinci"
+      },
+      {
+        "type": "text",
+        "content": "Famed for the Mona Lisa, da Vinci was also a prolific inventor and scientist..."
+      },
+      {
+        "type": "image",
+        "url": "https://www.leonardodavinci.net/assets/img/leonardo-da-vinci.jpg"
+      },
+      {
+        "type": "header",
+        "content": "Michelangelo"
+      },
+      {
+        "type": "text",
+        "content": "Renowned for his sculpture David, the Sistine Chapel ceiling..."
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.britannica.com/46/75046-050-0973B0E8/Michelangelo.jpg"
+      },
+      {
+        "type": "header",
+        "content": "Raphael"
+      },
+      {
+        "type": "text",
+        "content": "Known for The School of Athens, a masterpiece of perfect space and perspective..."
+      },
+      {
+        "type": "image",
+        "url": "https://hips.hearstapps.com/hmg-prod/images/raphael-gettyimages-656578432.jpg?resize=1200:*"
+      }
+    ]
+  }
+  

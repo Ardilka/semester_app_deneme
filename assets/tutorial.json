@@ -1,0 +1,83 @@
+{
+  "lessonTitle": "Advanced Humanities Topics",
+  "lessonChunks": [
+    {
+      "type": "header",
+      "content": "Chapter 1: The Renaissance"
+    },
+    {
+      "type": "text",
+      "content": "The Renaissance was a vibrant period of European cultural, artistic, political, and economic rebirth following the Middle Ages."
+    },
+    {
+      "type": "image",
+      "url": "https://assets.editorial.aetnd.com/uploads/2010/10/renaissance-art-gettyimages-550119221.jpg?width=768"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raphael"
+      ]
+    },
+    {
+      "type": "chart",
+      "chartType": "bar",
+      "data": {
+        "labels": ["1500", "1550", "1600"],
+        "values": [10, 25, 40]
+      },
+      "description": "Growth of Renaissance Art Over Years"
+    },
+    {
+      "type": "side_by_side",
+      "leftChunk": {
+        "type": "text",
+        "content": "The printing press revolutionized dissemination of knowledge."
+      },
+      "rightChunk": {
+        "type": "image",
+        "url": "https://cdn.britannica.com/43/120643-004-926C49EB/Illustration-Encyclopaedia-Britannica-printing-press-edition-stick.jpg"
+      }
+    },
+    {
+      "type": "header",
+      "content": "Side-by-Side with Chart & Text"
+    },
+    {
+      "type": "side_by_side",
+      "leftChunk": {
+        "type": "chart",
+        "chartType": "line",
+        "data": {
+          "labels": ["1500", "1600", "1700"],
+          "values": [5, 15, 25]
+        },
+        "description": "Literacy Growth"
+      },
+      "rightChunk": {
+        "type": "text",
+        "content": "As literacy rates grew, books became cheaper and more accessible."
+      }
+    },
+    {
+      "type": "header",
+      "content": "Top and bottom text and chart"
+    },
+    {
+      "type": "text",
+      "content": "As literacy rates grew, books became cheaper and more accessible."
+    },
+    {
+      "type": "chart",
+      "chartType": "line",
+      "data": {
+        "labels": ["1500", "1550", "1600", "1650", "1700", "1750", "1800"],
+        "values": [5, 12, 25, 40, 60, 80, 100],
+        "unit": "Books Printed"
+      },
+      "description": "Increase in Book Printing Over Time"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "lessonTitle": "The Renaissance Legacy",
+  "lessonChunks": [
+    {
+      "type": "header",
+      "content": "Lasting Influence on Modern Thought"
+    },
+    {
+      "type": "text",
+      "content": "From modern democratic ideals to artistic techniques still taught in today’s academies, the Renaissance’s impact stretches far beyond its historical timeframe. The emphasis on human potential and critical thinking led to developments in philosophy, governance, and individual rights, arguably shaping the Enlightenment that followed."
+    },
+    {
+      "type": "text",
+      "content": "Art forms like perspective and chiaroscuro remain foundational in painting. Michelangelo’s towering sculptures and Leonardo’s anatomically correct sketches helped define realism. Meanwhile, the spark of scientific inquiry unleashed by figures like Copernicus, Galileo, and Vesalius made further advancements in physics, astronomy, and medicine inevitable."
+    },
+    {
+      "type": "image",
+      "url": "https://leonardodavincipaintingsandtechniques.weebly.com/uploads/5/1/3/9/51393297/8967076.png?457"
+    },
+    {
+      "type": "text",
+      "content": "The Renaissance also redefined education. Humanist schools introduced the study of classical texts, logic, and rhetoric, guiding Europe's intellectual path for centuries. In short, the Renaissance bridged the medieval and modern worlds, opening the door to an age of exploration, innovation, and transformation."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Bridged medieval and modern Europe",
+        "Introduced new ways of thinking and learning",
+        "Influenced future movements like the Enlightenment"
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Course Conclusion"
+    },
+    {
+      "type": "text",
+      "content": "Congratulations! You’ve completed this journey through the Renaissance. Your understanding of its major figures, scientific progress, and cultural transformations should provide a solid foundation for further historical or artistic studies. Feel free to revisit any tutorial or explore additional readings to deepen your knowledge."
+    }
+  ]
+}

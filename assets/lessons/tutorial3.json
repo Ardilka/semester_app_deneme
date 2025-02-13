@@ -1,0 +1,35 @@
+{
+  "lessonTitle": "Renaissance Science & Technology",
+  "lessonChunks": [
+    {
+      "type": "header",
+      "content": "Printing Press and Beyond"
+    },
+    {
+      "type": "text",
+      "content": "Johannes Gutenberg's invention of the movable-type printing press in the mid-15th century revolutionized the dissemination of knowledge. Books could be mass-produced at unprecedented speeds, making literature, scientific treatises, and new ideas accessible to a broader public. This development drastically accelerated the spread of Renaissance humanism."
+    }, {
+        "type": "text",
+        "content": "New scientists such as Nicolaus Copernicus challenged the geocentric worldview, proposing a heliocentric model of the solar system. This paved the way for astronomers like Galileo Galilei, who used telescopes to confirm planetary motion. Meanwhile, Andreas Vesalius conducted groundbreaking research in human anatomy, challenging centuries-old assumptions."
+      },{
+        "type": "image",
+        "url": "https://cdn.britannica.com/43/120643-004-926C49EB/Illustration-Encyclopaedia-Britannica-printing-press-edition-stick.jpg"
+      }
+,
+{
+  "type": "chart",
+  "chartType": "bar",
+  "data": {
+    "labels": ["15th", "16th", "17th", "18th", "19th"],
+    "values": [20, 175, 500, 1000, 2500] 
+  },
+  "description": "Estimated Number of Books Produced (Millions per Century)",
+  "unit": "Millions"
+},
+
+    {
+      "type": "text",
+      "content": "Science, experimentation, and curiosity blossomed during this era, with scholars challenging established teachings and encouraging direct observation. This laid the foundation for the Scientific Revolution in the subsequent centuries, marking a profound change in how Western society understood the universe."
+    }
+  ]
+}

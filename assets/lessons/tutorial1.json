@@ -1,0 +1,30 @@
+{
+  "lessonTitle": "Introduction to the Renaissance",
+  "lessonChunks": [
+    {
+      "type": "header",
+      "content": "Chapter 1: Overview and Origins"
+    },
+    {
+      "type": "text",
+      "content": "The Renaissance was a profound cultural movement that began in Italy during the late Middle Ages, spanning from the 14th to the 17th centuries. It signaled a renewed interest in classical philosophy, literature, and art. Scholars, artists, and thinkers of the time sought to revive the ideals of Ancient Greece and Rome, leading to dramatic changes in the areas of art, science, religion, politics, and technology."
+    },
+    {
+      "type": "image",
+      "url": "https://assets.editorial.aetnd.com/uploads/2010/10/renaissance-art-gettyimages-550119221.jpg?width=768"
+    },
+    {
+      "type": "text",
+      "content": "One central theme of the Renaissance was humanism—a shift in focus toward the potential and achievements of individual human beings. This contrasted sharply with the preceding medieval period, which was more centered on the Church and the afterlife. In this chapter, we'll explore how the Renaissance laid the groundwork for modern Western civilization, introducing new perspectives on art, faith, and personal identity."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Origins traced primarily to Florence, Italy",
+        "Patrons like the Medici family funded art and architecture",
+        "Rediscovery of Greek and Roman texts",
+        "Spread quickly across Europe through travel, trade, and printing"
+      ]
+    }
+  ]
+}
