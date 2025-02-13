@@ -93,6 +93,7 @@ Code examples (for coding-related lessons)
   ],
   "correctAnswer": "Leonardo da Vinci"
 }
+
 This will allow users to select an answer and receive feedback.
 
 📖 4. Organizing Lessons into a Course Pathway
