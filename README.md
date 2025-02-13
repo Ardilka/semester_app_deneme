@@ -131,4 +131,3 @@ Lessons are fetched dynamically from an API or remote storage
 Course pathway to navigate lessons sequentially
 Expandable (quizzes, interactive elements, videos, and more)
 
-This version maintains **consistent Markdown formatting** and ensures that all content is **clearly structured and properly formatted for `README.md`**. 🚀
