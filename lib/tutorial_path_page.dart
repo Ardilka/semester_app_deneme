@@ -4,11 +4,13 @@ import 'package:flutter/services.dart';
 import 'package:semester_app_deneme/tutorials/tutorial_renderer.dart';
 
 class TutorialPathPage extends StatefulWidget {
+  const TutorialPathPage({super.key});
+
   @override
-  _TutorialPathPageState createState() => _TutorialPathPageState();
+  TutorialPathPageState createState() => TutorialPathPageState();
 }
 
-class _TutorialPathPageState extends State<TutorialPathPage> {
+class TutorialPathPageState extends State<TutorialPathPage> {
   final List<String> tutorialFiles = [
     'assets/lessons/tutorial1.json',
     'assets/lessons/tutorial2.json',
@@ -62,17 +64,21 @@ class _TutorialPathPageState extends State<TutorialPathPage> {
                     final Map<String, dynamic> jsonData =
                         json.decode(jsonString);
 
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => TutorialRenderer(
-                          lessonTitle: jsonData['lessonTitle'] ?? 'Untitled',
-                          lessonChunks: (jsonData['lessonChunks'] as List)
-                              .map((chunk) => chunk as Map<String, dynamic>)
-                              .toList(),
-                        ),
-                      ),
-                    );
+                    !context.mounted
+                        ? null
+                        : Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => TutorialRenderer(
+                                lessonTitle:
+                                    jsonData['lessonTitle'] ?? 'Untitled',
+                                lessonChunks: (jsonData['lessonChunks'] as List)
+                                    .map((chunk) =>
+                                        chunk as Map<String, dynamic>)
+                                    .toList(),
+                              ),
+                            ),
+                          );
                   },
                 );
               },

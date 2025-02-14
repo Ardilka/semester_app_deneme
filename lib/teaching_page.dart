@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:semester_app_deneme/tutorials/tutorial_renderer.dart';
 
 class TeachingPage extends StatefulWidget {
-  const TeachingPage({Key? key}) : super(key: key);
+  const TeachingPage({super.key});
 
   @override
   State<TeachingPage> createState() => _TeachingPageState();

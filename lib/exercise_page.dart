@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class ExercisePage extends StatefulWidget {
-  const ExercisePage({Key? key}) : super(key: key);
+  const ExercisePage({super.key});
 
   @override
   State<ExercisePage> createState() => _ExercisePageState();
@@ -88,8 +88,8 @@ class _ExercisePageState extends State<ExercisePage> {
             )),
         const SizedBox(height: 20),
         ElevatedButton(
-          child: const Text('Next'),
           onPressed: nextExercise,
+          child: const Text('Next'),
         ),
       ],
     );
@@ -123,8 +123,8 @@ class _ExercisePageState extends State<ExercisePage> {
         ),
         const SizedBox(height: 20),
         ElevatedButton(
-          child: const Text('Next'),
           onPressed: nextExercise,
+          child: const Text('Next'),
         ),
       ],
     );
@@ -151,8 +151,8 @@ class _ExercisePageState extends State<ExercisePage> {
         ),
         const SizedBox(height: 20),
         ElevatedButton(
-          child: const Text('Next'),
           onPressed: nextExercise,
+          child: const Text('Next'),
         ),
       ],
     );

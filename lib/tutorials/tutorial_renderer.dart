@@ -8,10 +8,10 @@ class TutorialRenderer extends StatelessWidget {
   final List<Map<String, dynamic>> lessonChunks;
 
   const TutorialRenderer({
-    Key? key,
+    super.key,
     required this.lessonTitle,
     required this.lessonChunks,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -20,12 +20,17 @@ class TutorialRenderer extends StatelessWidget {
         title: Text(lessonTitle),
       ),
       body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.all(16.0),
-          child: Column(
-            children: lessonChunks
-                .map((chunk) => _buildChunk(context, chunk))
-                .toList(),
+        child: Center(
+          child: Container(
+            constraints: BoxConstraints(maxWidth: 600),
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                children: lessonChunks
+                    .map((chunk) => _buildChunk(context, chunk))
+                    .toList(),
+              ),
+            ),
           ),
         ),
       ),
