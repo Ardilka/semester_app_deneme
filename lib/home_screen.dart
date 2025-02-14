@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:semester_app_deneme/tutors/tutorial_editor.dart';
 import 'teaching_page.dart';
 import 'exercise_page.dart';
 import 'tutorial_path_page.dart';
@@ -15,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Widget> _children = [
     TutorialPathPage(),
-    TeachingPage(),
+    TutorEditorPage(),
     TeachingPage(),
     ExercisePage(),
   ];
